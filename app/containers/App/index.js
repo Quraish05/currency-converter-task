@@ -17,7 +17,7 @@ import CurrencyConverter from 'containers/CurrencyConverter/Loadable';
 import GlobalStyle from '../../global-styles';
 
 const AppWrapper = styled.div`
-  max-width: calc(1100px + 16px * 2);
+  max-width: calc(1250px + 16px * 2);
   margin: 0 auto;
   display: flex;
   min-height: 100%;
@@ -29,10 +29,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="React.js Boilerplate"
+        titleTemplate="%s - React.js Bitcoin Currency Converter"
+        defaultTitle="React.js Bitcoin Currency Converter"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
+        <meta name="description" content="A React.js Bitcoin Currency Converter application" />
       </Helmet>
       {/* <Header /> */}
       <Switch>

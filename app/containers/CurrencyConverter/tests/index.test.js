@@ -2,7 +2,7 @@
  *
  * Tests for CurrencyConverter
  *
- * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
+ * @see https://github.com/react-Bitcoin Currency Converter/react-Bitcoin Currency Converter/tree/master/docs/testing
  *
  */
 

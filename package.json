@@ -4,7 +4,7 @@
   "description": "Currency to BitCoin converter",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git://github.com/react-Bitcoin Currency Converter/react-Bitcoin Currency Converter.git"
   },
   "engines": {
     "npm": ">=5",
@@ -72,6 +72,7 @@
     "compression": "1.7.4",
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
+    "dayjs": "^1.10.4",
     "express": "4.16.4",
     "fontfaceobserver": "2.1.0",
     "history": "4.9.0",

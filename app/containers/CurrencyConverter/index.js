@@ -95,7 +95,7 @@ export function CurrencyConverter(props) {
                 Bitcoin Currency Converter
               </p>
             </Col>
-            <Col xs="12" sm="4">
+            <Col xs="12" sm="3">
               <p className="w-100 mb-2 statsSmallText">1 Bitcoin equals</p>
               <Select
                 className="w-100 mb-4"
@@ -124,17 +124,17 @@ export function CurrencyConverter(props) {
               )}
             </Col>
 
-            <Col xs="12" sm="8">
+            <Col xs="12" sm="9">
               <div>
                 {/* <ResponsiveContainer width="100%" height="100%"> */}
                 <AreaChart
-                  width={750}
-                  height={500}
+                  width={950}
+                  height={600}
                   className="chartCurrency"
                   data={props.currencyConverter.pricePerCurrency}
                   margin={{
                     top: 5,
-                    right: 30,
+                    right: 0,
                     left: 20,
                     bottom: 10,
                   }}
@@ -153,7 +153,7 @@ export function CurrencyConverter(props) {
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="data" type="category" />
-                  <YAxis type="number" domain={[0, 150]} />
+                  <YAxis type="number" domain={[15000, 65000]} />
                   <Tooltip />
                   <Legend />
                   <Area
