@@ -17,6 +17,11 @@ import FontFaceObserver from 'fontfaceobserver';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './assets/base/style.scss';
+
+
 // Import root app
 import App from 'containers/App';
 

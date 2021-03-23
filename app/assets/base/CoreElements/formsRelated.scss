@@ -1,0 +1,129 @@
+.whiteDateField {
+  height: 40px !important;
+  min-height: 0 !important;
+  background: $white !important;
+  border-radius: 5px !important;
+  border: none;
+}
+
+.whiteInputField {
+  @extend .whiteDateField;
+  height: 40px !important;
+  border: none !important;
+}
+
+.input-fieldGrooved {
+  height: 55px !important;
+  margin-bottom: 0.25rem !important;
+  border: 1px solid $gainsboro !important;
+  background-color: $solitude !important;
+  box-shadow: inset -2px -2px 4px $white, inset 2px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 18px !important;
+}
+
+.otpContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.otpInput {
+  @extend .input-fieldGrooved;
+  width: 13% !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+}
+
+.selectDropdown {
+  background: $solitude !important;
+  box-shadow: -5px -5px 10px $white, 5px 5px 10px $iron !important;
+  border-radius: 10px !important;
+  border: none !important;
+  min-height: 50px !important;
+}
+
+//! ELEVATED INPUT FIELDS
+//! ELEVATED INPUT FIELDS
+//! ELEVATED INPUT FIELDS
+
+.elevatedInputField {
+  background: $solitude !important;
+  box-shadow: -2px -2px 4px $white, 2px 2px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 13px !important;
+  border: none !important;
+  min-height: 50px !important;
+}
+
+.reactSelectElevated-container {
+  @extend .elevatedInputField;
+  box-shadow: none !important;
+}
+
+.reactSelectElevated__control {
+  @extend .elevatedInputField;
+}
+
+.reactSelectElevated__control:disabled {
+}
+
+.inputLabel span {
+  color: $venetianRed;
+  font-size: 1rem;
+}
+
+.importantStar {
+  position: relative;
+  top: 2px;
+}
+
+//below CSS is for Search box in Header
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	// background: #ededed url('../../../images/magnifyingGlass.svg') no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	//border-color: #66CC75;
+  outline: none !important;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+#searchBarInHeader input[type='search'] {
+  width: 44px;
+  margin-top: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+#searchBarInHeader input[type='search']:hover {
+  background-color: #fff;
+}
+#searchBarInHeader input[type='search']:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+#searchBarInHeader input:-moz-placeholder {
+  color: transparent;
+}
+#searchBarInHeader input::-webkit-input-placeholder {
+  color: transparent;
+}
