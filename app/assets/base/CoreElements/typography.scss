@@ -1,0 +1,182 @@
+/*
+* SYNTAX FOR basicFontStyle MIXIN:
+* fontfamily, fontsize, color, fontWeight, padding, margin
+
+* SYNTAX FOR letterLineSpacing MIXIN:
+* letterSpacing, lineHeight
+
+*/
+
+::-webkit-input-placeholder {
+  font-style: italic !important;
+  @include basicFontStyle($poppinsLight, 16px, $shadyLady, 100, 0, 0);
+  @include letterLineSpacing(0.4px, '');
+}
+
+.pageNotFoundText {
+  @include basicFontStyle(
+    $poppinsRegular,
+    42px,
+    $black,
+    500,
+    2.5rem 0 0 2rem,
+    0
+  );
+}
+
+.comingSoonText {
+  @include basicFontStyle($poppinsBold, 44px, $charcoal, 700, 0, 0);
+  // @include letterLineSpacing(2px, 90px);
+}
+
+.conversionText {
+  @include basicFontStyle($poppinsMedium, 34px, $black, 700, 0, 0);
+  // @include letterLineSpacing(2px, 90px);
+}
+
+.successText {
+  @include basicFontStyle($poppinsRegular, 24px, $successGreen, 400, 0, 0);
+}
+
+.ourTeamText {
+  @include basicFontStyle($poppinsRegular, 20px, $black, 400, 0, 0);
+  @include letterLineSpacing(0px, 20px);
+}
+
+.textTitle {
+  @include basicFontStyle($poppinsMedium, 22px, $charcoal, 500, 0, 0);
+  @include letterLineSpacing(0.4px, '');
+}
+
+.title2 {
+  @include basicFontStyle($poppinsRegular, 16px, $black, 500, 0, 0 0 1rem 0);
+  @include letterLineSpacing(0.4px, '');
+}
+
+.title3 {
+  @include basicFontStyle($poppinsRegular, 20px, $black, 500, 0, 0 0 1rem 0);
+}
+
+.textSubtitle {
+  margin-bottom: 1.5rem;
+}
+
+.helperText {
+  color: $charcoal;
+}
+
+.miniHelperText {
+  font-size: $generalSize10;
+  color: $shadyLady;
+}
+
+.textAuthFormsBottom {
+  font-family: $poppinsRegular;
+  color: $charcoal;
+  font-size: $generalSize14;
+}
+
+.link-on-word {
+  color: $cobalt;
+  cursor: pointer;
+}
+
+.link-on-word:hover {
+  color: $sherpaBlue;
+}
+
+.buttonOnAWord {
+  color: $cobalt;
+  cursor: pointer;
+}
+.buttonOnAWord:hover {
+  transform: scale(1.3);
+  transition: all 0.3s ease-in-out 0.1s;
+  text-decoration: underline;
+  color: $sherpaBlue;
+}
+
+.totaltext {
+  @include basicFontStyle($poppinsRegular, 18px, $brown, 900, 0, 0);
+}
+
+.cobaltColoredText {
+  @include basicFontStyle($poppinsRegular, 18px, $cobalt, 400, 0, 0);
+}
+
+.ellipsisInText {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 95%;
+}
+
+.dangerText {
+  @include basicFontStyle($poppinsRegular, 14px, $venetianRed, 400, 0, 0);
+}
+
+.formError {
+  @include basicFontStyle(
+    $poppinsRegular,
+    13px,
+    $venetianRed,
+    400,
+    5px 0 0 0,
+    0
+  );
+}
+
+.list-with-bullets li {
+  list-style-type: disc;
+}
+
+.values {
+  font-family: 'Poppins-Regular';
+  font-size: 16px !important;
+  color: #000000;
+}
+
+.inputLabel {
+  font-style: italic;
+  @include basicFontStyle($poppinsLight, 13px, $shadyLady, 300, 0, 5px 0 7px 0);
+}
+
+.bigNumber {
+  font-size: 40px;
+  color: $cobalt;
+}
+
+.statsSmallText {
+  @include basicFontStyle($poppinsLight, 14px, $shadyLady, 300, 0, 5px 0 7px 0);
+  // font-style: italic;
+}
+
+.bigNumberWhite {
+  font-size: 40px;
+  color: $white;
+}
+
+.statsSmallTextWhite {
+  @include basicFontStyle($poppinsLight, 14px, $white, 300, 0, 5px 0 7px 0);
+}
+
+.noteDislaimerText {
+  @include basicFontStyle($poppinsRegular, 13px, $cobalt, 300, 0, 5px 0 7px 0);
+}
+
+.noteHeadline {
+  @include basicFontStyle($poppinsMedium, 14px, $cobalt, 300, 0, 5px 0 7px 0);
+}
+
+.miniGreyText {
+  @include basicFontStyle($poppinsLight, 13px, $shadyLady, 300, 0, 0px 0);
+  font-style: italic;
+}
+
+.rectangle {
+  border: 1px solid black;
+  width: 33%;
+  min-height: 200px;
+
+  
+}

@@ -1,0 +1,157 @@
+.dateCalendarIcon {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+.smallCalendar {
+  @extend .dateCalendarIcon;
+  width: 22px !important;
+  top: 10px !important;
+}
+
+.inputPercentIcon {
+  right: 13px;
+  top: 16px;
+  color: $shadyLady;
+  position: absolute;
+}
+
+.inputPercentIconWhiteField {
+  @extend .inputPercentIcon;
+  top: 12px;
+}
+
+.inputFormikPercentIcon {
+  @extend .inputPercentIcon;
+  top: 16px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.smallCameraIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 30px;
+  color: $cobalt;
+}
+
+.orgLogoInEdit {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.orgLogoInEditView {
+  @extend .orgLogoInEdit;
+  max-width: 140px;
+  height: 140px;
+}
+
+.orgLogoInPreview {
+  border-radius: 50%;
+  max-width: 50px;
+  height: 50px;
+}
+
+.removeCloseIcon {
+  color: $shadyLady;
+}
+
+.checkIcon {
+  margin-right: 7px;
+  margin-top: -3px;
+  color: #6bbb6b;
+}
+
+.errorIcon {
+  margin-right: 7px;
+  margin-top: -3px;
+}
+
+.headerAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.headerCompanyAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.menuAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: -3px;
+  margin-right: 0.5rem;
+}
+
+.iconBackgroundCobalt {
+  background-color: $cobalt !important;
+}
+
+.iconBackgroundEmerald {
+  background-color: $emerald !important;
+}
+
+.successfulComment {
+  padding: 10px 16px;
+  background-color: $paleGreen !important;
+  border-radius: 14px;
+}
+
+.pendingComment {
+  @extend .successfulComment;
+  background-color: $sundown !important;
+}
+
+.noItemsPresentIcon {
+  width: 10rem;
+}
+
+.studentsEnrolledIcon {
+  color: #e0e0e0;
+  font-size: 80px !important;
+  position: absolute;
+  bottom: -17px;
+  left: 40px;
+}
+
+.totalAdmissionsIcon {
+  @extend .studentsEnrolledIcon;
+  bottom: -10px;
+  left: 27px;
+}
+
+.graduatedStudent {
+  width: 9rem;
+}
+
+/* .chooseARoleImg {
+  width: 70%;
+} */
+
+.chooseARoleImg:hover {
+  transform: scale(1.05);
+}
+
+.addInvoiceBox {
+  width: 205px;
+  height: 189px;
+
+  border: 2px solid #005d9f;
+  box-sizing: border-box;
+  border-radius: 24px;
+  cursor: pointer;
+}

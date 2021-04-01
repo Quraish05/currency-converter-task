@@ -1,0 +1,153 @@
+// *************************************
+//
+//   Font Setup, Application-wide Variables
+//
+// *************************************
+
+// -------------------------------------
+//   @font-face
+// -------------------------------------
+
+/* @include font-face(avenirBk, 'AvenirNext-Bold.ttf');
+@include font-face(avenirMd, 'AvenirNext-Regular.ttf');
+@include font-face(avenirLt, 'Avenir-Light.ttf');
+@include font-face(avenirHv, 'Avenir-Heavy.ttf'); */
+
+// -------------------------------------
+//   Colors
+// -------------------------------------
+
+// ----- Palette ----- //
+
+// Default Colors
+
+$gray: gray;
+$darkGray: darkgray;
+$lightGray: lightgray;
+$successGreen: green; /*Used for success Messages*/
+$errorRed: red; /*Used for error messages and borders*/
+
+$venetianRed: #ce2308;
+
+// Project Specific Colors
+$cobalt: #005d9f;
+
+$periwinkle: #c7d9e6;
+$purpleBlue: #5b1ffd;
+$silver: #b5b5b5; /* Button and Actions */
+$white: #ffffff;
+$gainsboro: #dcdcdc;
+$gainsboroMedium: #e5e5e5;
+$solitude: #f1f3f7;
+$solitudeVariant2: #eceef4;
+
+$dodgerBlue: #0294ec;
+
+$sherpaBlue: #002540;
+
+$brown: #b12c2c;
+
+$coralCandy: #f5c9c9;
+
+$sundown : #F79898;
+
+$paleGreen: #96f5bc;
+$emerald: #52ce84;
+
+$linkWater: #c8cfd5;
+$solitudeDark: #e8ecf2;
+$charcoal: #3f3f3f;
+$black: #000000; /* Universal Base Color */
+$iron: #cdcfd2;
+$shadyLady: #979797;
+$smoke: #f3f6f9; /*  Accent color  */
+$blackTint: lighten(
+  saturate(adjust-hue($black, 240), 22.22),
+  10.59
+); /* #151521 - Very Dark Blue (Almost Black) */
+
+// ----- Base ----- //
+
+$c-background: $white;
+$c-text: $black;
+
+// ----- Components ----- //
+
+$c-head--bg: $white;
+$c-head--text: $blackTint;
+
+$c-btn-bg--primary: $purpleBlue;
+$c-btn-text--primary: $white;
+
+$c-btn-bg--accent: $smoke;
+$c-btn-text--accent: $blackTint;
+
+$c-link-primary: $blackTint;
+$c-link-secondary: $gray;
+
+$c-foot--bg: $blackTint;
+$c-foot--text: $white;
+
+// ----- Structures ----- //
+
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+// ----- Sizing ----- //
+
+$b-space: 1rem;
+
+// ----- Width ----- //
+
+$b-width: 100%;
+$b-width--container: 1115px; /*   Project Specific Container Width    */
+
+$w-20: $b-space * 1.25; /* 20px width to keep icons large or small at equal spacing with text on left or right */
+
+// ----- Typography ----- //
+
+$b-fs: 1rem;
+$b-fs-18: 1.125rem; /*18px*/
+$b-fs-15: 0.9375rem; /*15px*/
+$b-fs-14: 0.875rem; /*14px*/
+$b-fs-12: 0.75rem; /*12px*/
+$b-fs-11: 0.6875rem; /*11px*/
+
+// ----- Typography Weight ----- //
+
+$b-fw-3: 300;
+$b-fw-4: 400;
+$b-fw-5: 500;
+
+$poppinsBold: 'Poppins-Bold';
+
+$poppinsRegular: 'Poppins-Regular';
+$poppinsMedium: 'Poppins-Medium';
+$poppinsBold: 'Poppins-Bold';
+$poppinsLight: 'Poppins-Light';
+$inter: Inter;
+
+$headings-size-25: 25px;
+
+$generalSize10: 10px;
+$generalSize14: 14px;
+$generalSize15: 15px;
+$generalSize16: 16px;
+$generalSize18: 18px;
+$generalSize20: 20px;
+
+:export {
+  cobaltColor: $cobalt;
+  sherpaBlue: $sherpaBlue;
+  shadyLady: $shadyLady;
+  paleGreenColor: $paleGreen;
+  emeraldColor: $emerald;
+  solitudeDarkColor: $solitudeDark;
+  solitudeVariant2: $solitudeVariant2;
+  lightGrayColor: $lightGray;
+  poppinsBold: $poppinsBold;
+  poppinsRegular: $poppinsRegular;
+  poppinsLight: $poppinsLight;
+  poppinsMedium: $poppinsMedium;
+}

@@ -1,0 +1,79 @@
+.cursorPointer {
+  cursor: pointer;
+}
+
+.cobaltColor {
+  color: $cobalt;
+}
+
+.successGreenColor {
+  color: $successGreen;
+}
+
+.venetianRedColor {
+  color: $venetianRed;
+}
+
+.capitalFirstLetter {
+  text-transform: capitalize;
+}
+
+.editPencilIcon {
+  font-size: 20px;
+  color: $cobalt;
+  padding-right: 1rem;
+}
+
+.paperClipIcon {
+  transform: rotate(-50deg);
+  margin: 0rem 0.3rem 0 0.5rem;
+}
+
+.pageCentered {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.poppinsLight {
+  font-family: $poppinsLight !important;
+}
+
+.poppinsMedium {
+  font-family: $poppinsMedium !important;
+}
+
+.alignItemsCenter {
+  align-items: center !important;
+}
+
+.textItalics {
+  font-style: italic;
+}
+
+//the below CSS is to remove the blue focus outline border that was appearing on the search bar in the header
+
+input.middle:focus {
+  outline-width: 0;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+//below CSS is to add colors to active/inactive months in React Datepicker calendar
+
+.react-datepicker__day:not(.react-datepicker__day--outside-month) {
+  // color: $cobalt !important;
+}
+
+.react-datepicker__day--outside-month {
+  color: $shadyLady !important;
+  // pointer-events: none;
+}
+
+.dFlex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

@@ -1,0 +1,35 @@
+@import './helperMixins';
+@import './config';
+@import './base';
+
+@import './CoreElements/basicClasses.scss';
+@import './CoreElements/cards.scss';
+@import './CoreElements/typography.scss';
+@import './CoreElements/iconsImages.scss';
+@import './CoreElements/sizing.scss';
+@import './CoreElements/popups.scss';
+
+@import './components/currency.scss';
+
+
+@import './CoreElements/formsRelated.scss';
+
+/* @import 'base/helpers';
+@import 'base/config';
+@import 'base/base'; */
+
+// @import 'components/header';
+/* @import 'components/comp-header';
+@import 'components/banner';
+@import 'components/form-contact';
+@import 'components/abt-us'; */
+// @import 'components/footer';
+
+/* @import 'structures/home/nav-home';
+@import 'structures/home/carousel';
+@import 'structures/home/abt-cnt-container';
+
+@import 'structures/products/nav-prod';
+@import 'structures/products/prods-container'; */
+
+// @import 'mq';

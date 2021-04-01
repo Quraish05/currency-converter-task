@@ -1,0 +1,59 @@
+.confirmationModalContainer {
+  top: 20% !important;
+}
+
+.alertBox {
+  right: 70px !important;
+  z-index: 9999 !important;
+  bottom: 25px !important;
+  position: fixed !important;
+}
+.smallModalContainer {
+  // max-width: 600px !important;
+  top: 0.5rem !important;
+  // box-shadow: 53px 53px 34px rgba(0, 0, 0, 0.25);
+}
+
+.mediumModalContainer {
+  max-width: 700px !important;
+}
+
+.largeModalContainer {
+  max-width: 1030px !important;
+  // top: 40%;
+  // transform: translateY(-50%) !important;
+}
+
+.extraLargeModalContainer {
+  max-width: 1300px !important;
+}
+
+.fullScreenModalContainer {
+  max-width: 100% !important;
+  top: -2rem !important;
+  height: 100%;
+  & .modal-content {
+    border-radius: 0 !important;
+  }
+}
+
+.modal-content {
+  border-radius: 50px !important;
+}
+
+.modalCrossButton {
+  padding: 1rem 2rem 0 !important;
+  border-bottom: none !important;
+}
+
+.modalTitle {
+  font-size: $generalSize20;
+  text-align: center;
+}
+
+.modalData {
+  font-size: $generalSize18;
+  text-align: center;
+  color: $shadyLady;
+  padding: 2rem 1rem;
+}
